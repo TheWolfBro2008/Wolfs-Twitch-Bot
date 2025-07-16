@@ -62,31 +62,29 @@ cd twitchbot
 ```
 2. Open repository
 
-3. Open main.js
+3. Open main.js 
 
-4. Replace 
-
-5. Replace
+4. Replace
 ```JavaScript
 const oAuth = "your-Access-Token-Here";
 ```
 With your access token from the first step
 
-6. Replace
+5. Replace
 ```JavaScript
 const nick = "Your bot's Twitch Channel";
 ```
 With the name of the channel that your bot is using (Just the user name!).
 
-7. Replace
+6. Replace
 ```JavaScript
 const channel = "your channel";
 ```
 With the name of the Twitch Channel that you would like the bot to work on! (Please Note: I am not responsible for any missue like using it to spamn another Twitch Channel. If you chat bot gets banned, that is your fault!)
 
-8. Edit Commands to your liking!
+7. Edit Commands to your liking!
 
-9. To host follow the Hosting option below!
+8. To host follow the Hosting option below!
 
 ## Hosting
 (Please note all of the options I am listing are free but there are more!)
