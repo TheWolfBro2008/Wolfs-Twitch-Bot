@@ -44,7 +44,7 @@ A customizable Twitch chat bot built with Node.js. This bot supports built-in co
 
 ### How to get your Twitch OAuth Token
 
-1. Go to [https://twitchtokengenerator.com/](https://twitchtokengenerator.com)]
+1. Go to [https://twitchtokengenerator.com/](https://twitchtokengenerator.com)
 2. Click "Bot Token" and authorize the app
 3. Copy the Access Token
 
