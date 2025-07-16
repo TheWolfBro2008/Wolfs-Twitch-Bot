@@ -1,6 +1,6 @@
-const oAuth = "fsjq1aqiogo1kzhxkh9cgjcevcq4h6";
-const nick = "TTV_WolfBot";
-const channel = "ttv_wolfbro";
+const oAuth = "your-Access-Token-Here";
+const nick = "Your bot's Twitch Channel";
+const channel = "your channel";
 
 const socket = new WebSocket("wss://irc-ws.chat.twitch.tv:443");
 
@@ -32,27 +32,27 @@ socket.addEventListener('message', (event) => {
     } else if (msgText === "!help") {
       socket.send(`PRIVMSG #${channel} :Commands: !hello, !help, !youtube, !twitch, !tip, !discord, !itch, !website, !merch, !psn, !steam, !xbox, !riot.`);
     } else if (msgText === "!youtube") {
-      socket.send(`PRIVMSG #${channel} :Check out the YouTube channel at https://www.youtube.com/@ttvwolfbro`);
+      socket.send(`PRIVMSG #${channel} :Check out the YouTube channel at https://www.youtube.com/@your-channel`);
     } else if (msgText === "!twitch") {
-      socket.send(`PRIVMSG #${channel} :Watch the stream here: https://twitch.tv/ttv_wolfbro`);
+      socket.send(`PRIVMSG #${channel} :Watch the stream here: https://twitch.tv/your-twitch-channel'wwwwwwww);
     } else if (msgText === "!tip") {
-      socket.send(`PRIVMSG #${channel} :You can tip me at https://streamelements.com/ttv_wolfbro/tip`);
+      socket.send(`PRIVMSG #${channel} :'You can tip me at: Tipping Link`);
     } else if (msgText === "!discord") {
-      socket.send(`PRIVMSG #${channel} :Join our Discord: https://discord.gg/4wXBZzhXKJ`);
+      socket.send(`PRIVMSG #${channel} :Join our Discord: discord server invite`);
     } else if (msgText === "!itch") {
-      socket.send(`PRIVMSG #${channel} :Check out my games on itch.io: https://shadow-wolf-studios.itch.io/`);
+      socket.send(`PRIVMSG #${channel} :Check out my games on itch.io: https://your-username.itch.io/`);
     } else if (msgText === "!website") {
-      socket.send(`PRIVMSG #${channel} :Visit my website: https://sws.rf.gd/`);
+      socket.send(`PRIVMSG #${channel} :Visit my website: https://example.com/`);
     } else if (msgText === "!merch") {
-      socket.send(`PRIVMSG #${channel} :Buy merch here: https://ttv-wolfbro-shop.fourthwall.com`);
+      socket.send(`PRIVMSG #${channel} :Buy merch here: Merch link`);
     } else if (msgText === "!psn") {
-      socket.send(`PRIVMSG #${channel} :My PSN ID is: Wolf_Bro2008`);
+      socket.send(`PRIVMSG #${channel} :My PSN ID is: Playstation username`);
     } else if (msgText === "!steam") {
-      socket.send(`PRIVMSG #${channel} :Add me on Steam: https://steamcommunity.com/id/wolfbrottv/`);
+      socket.send(`PRIVMSG #${channel} :Add me on Steam: https://steamcommunity.com/id/your-steam-account`);
     } else if (msgText === "!xbox") {
-      socket.send(`PRIVMSG #${channel} :My Xbox Gamertag is: MasterMJMC`);
+      socket.send(`PRIVMSG #${channel} :My Xbox Gamertag is: Xbox Username`);
     }else if (msgText === "!riot") {
-      socket.send(`PRIVMSG #${channel} :My Riot ID is: TTVWolfBro#Wolf`);
+      socket.send(`PRIVMSG #${channel} :My Riot ID is: Example#Tag`);
     }
   }
 });
