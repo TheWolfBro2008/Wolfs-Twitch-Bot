@@ -1,6 +1,21 @@
-# TwitchBot
+# Wolf's Twitch Bot
 
-A customizable Twitch chat bot built with Node.js. This bot supports built-in commands and can be easily extended with new commands to enhance your Twitch channel interaction.
+A customizable Twitch chat bot built with JavaScript and Html. This bot supports built-in commands and can be easily extended with new commands to enhance your Twitch channel interaction.
+
+---
+## My Links
+
+- Check out my website: [My Website](https://sws.rf.gd/)
+
+- Follow me on Twitch: [Twitch](https://twitch.tv/ttv_wolfbro)
+
+- Subscribe to my youtube: [Youtube](https://youtube.com/@ttvwolfbro)
+
+- Join the Discord for help!: [Discord](https://discord.gg/4wXBZzhXKJ)
+
+- Check out my games on Itch.io!: [My Games](https://shadow-wolf-studios.itch.io/)
+
+- Get my Merch!: [Merch!!!!](https://ttv-wolfbro-shop.fourthwall.com)
 
 ---
 
@@ -86,13 +101,15 @@ With the name of the Twitch Channel that you would like the bot to work on! (Ple
 
 8. To host follow the Hosting option below!
 
+---
+
 ## Hosting
 (Please note all of the options I am listing are free but there are more!)
 
-1. Self Hosted
+Option 1: Self Hosted
 You can choose to self host by just running 'index.html' in a browser. This is the safest option and quickest.
 
-2. Web Hosted
+Option 2: Web Hosted
 You can also host it on the web 24/7 for free! Follow these steps:
   1. Go to https://infinityfree.com
   2. Create an Account
